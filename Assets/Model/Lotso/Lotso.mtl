@@ -1,0 +1,24 @@
+newmtl 09___Default
+Ka 0.5647059 0.5647059 0.5647059
+Kd 0.5647059 0.5647059 0.5647059
+d 1
+Tr 1
+map_Ka 09___Default.png
+map_Kd 09___Default.png
+map_d 09___Default.png
+newmtl Eyelid
+Ka 0.972549 0.972549 0.972549
+Kd 0.972549 0.972549 0.972549
+d 1
+Tr 1
+map_Ka Eyelid.png
+map_Kd Eyelid.png
+map_d Eyelid.png
+newmtl Lotso
+Ka 0.5647059 0.5647059 0.5647059
+Kd 0.972549 0.972549 0.972549
+d 1
+Tr 1
+map_Ka Lotso.png
+map_Kd Lotso.png
+map_d Lotso.png

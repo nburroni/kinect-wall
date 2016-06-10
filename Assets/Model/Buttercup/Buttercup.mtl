@@ -1,0 +1,8 @@
+newmtl buttercup
+Ka 0 0 0
+Kd 0.7843137 0.7843137 0.7843137
+d 1
+Tr 1
+map_Ka buttercup.png
+map_Kd buttercup.png
+map_d buttercup.png
