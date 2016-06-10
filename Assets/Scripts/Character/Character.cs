@@ -26,6 +26,7 @@ using Vuforia;
     public void Die()
     {
         dead = true;
+        GetComponentInChildren<Rotate>().rotate = false;
         GetComponentInChildren<Animator>().SetBool("Die", true);
     }
 
@@ -40,7 +41,6 @@ using Vuforia;
                 mTrackableBehaviour.RegisterTrackableEventHandler(this);
             }
         }
-
         #endregion // UNTIY_MONOBEHAVIOUR_METHODS
 
 
@@ -90,6 +90,7 @@ using Vuforia;
             {
                 component.enabled = true;
             }
+            GetComponentInChildren<Rotate>().rotate = true;
             GameController.instance.CharacterEnter(this);
 //            Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
         }
@@ -113,10 +114,14 @@ using Vuforia;
             }
             this.dead = false;
             GetComponentInChildren<Animator>().SetBool("Die", false);
-
             GameController.instance.CharacterExit(this);
         //            Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
         }
 
         #endregion // PRIVATE_METHODS
+
+    public void SetTarget(Transform target)
+    {
+        GetComponentInChildren<Rotate>().target = target;
+    }
     }

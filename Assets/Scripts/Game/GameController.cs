@@ -41,12 +41,19 @@ public class GameController : MonoBehaviour
     public void CharacterEnter(Character character)
     {
         if (characterOne == null)
+        {
             characterOne = character;
+        }
         else if (characterTwo == null)
+        {
             characterTwo = character;
+            characterOne.SetTarget(characterTwo.GetComponentInChildren<Character>().transform);
+            characterTwo.SetTarget(characterOne.GetComponentInChildren<Character>().transform);
+        }
 
         PrintCharacters();
     }
+
     public void CharacterExit(Character character)
     {
         if (characterOne == character)
@@ -55,7 +62,11 @@ public class GameController : MonoBehaviour
             characterTwo = null;
         }
         else if (characterTwo == character)
+        { 
             characterTwo = null;
+        }
+        if (characterOne) characterOne.SetTarget(null);
+        if(characterTwo) characterTwo.SetTarget(null);
 
         PrintCharacters();
     }
