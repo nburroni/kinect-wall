@@ -19,7 +19,15 @@ using Vuforia;
         #endregion // PRIVATE_MEMBER_VARIABLES
 
     public int power;
-    public bool dead = false;
+    private bool dead = false;
+
+    public bool Dead { get { return this.dead; } }
+
+    public void Die()
+    {
+        dead = true;
+        GetComponentInChildren<Animator>().SetBool("Die", true);
+    }
 
 
         #region UNTIY_MONOBEHAVIOUR_METHODS
@@ -82,7 +90,6 @@ using Vuforia;
             {
                 component.enabled = true;
             }
-            this.dead = false;
             GameController.instance.CharacterEnter(this);
 //            Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
         }
@@ -104,6 +111,8 @@ using Vuforia;
             {
                 component.enabled = false;
             }
+            this.dead = false;
+            GetComponentInChildren<Animator>().SetBool("Die", false);
 
             GameController.instance.CharacterExit(this);
         //            Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");

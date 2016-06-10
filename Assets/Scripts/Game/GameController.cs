@@ -22,17 +22,17 @@ public class GameController : MonoBehaviour
         distance = (!characterOne || !characterTwo)
             ? -1
             : Vector3.Distance(characterOne.transform.position, characterTwo.transform.position);
-        if ((distance < 1.2f && distance >= 0f) && !(characterOne.dead || characterTwo.dead))
+        if ((distance < 1.2f && distance >= 0f) && !(characterOne.Dead || characterTwo.Dead))
         {
             Debug.Log("ATTACK!");
             if (characterOne.power < characterTwo.power)
             {
-                characterOne.dead = true;
+                characterOne.Die();
                 Debug.Log(string.Format("{0} dead.", characterOne));
             }
             else
             {
-                characterTwo.dead = true;
+                characterTwo.Die();
                 Debug.Log(string.Format("{0} dead.", characterTwo));
             }
         }
