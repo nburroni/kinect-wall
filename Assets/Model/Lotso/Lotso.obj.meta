@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: f480902d8a65f9446bba64e026cc2af9
+timeCreated: 1464980858
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: LotsoCane
+    100004: Obj_Head
+    100006: Obj_Head_1
+    100008: Obj_Hips
+    100010: Obj_LBicep
+    100012: Obj_LFoot
+    100014: Obj_LForearm
+    100016: Obj_LHand
+    100018: Obj_Lshin
+    100020: Obj_LThigh
+    100022: Obj_RBicep
+    100024: Obj_RFoot
+    100026: Obj_RForearm
+    100028: Obj_RHand
+    100030: Obj_Rshin
+    100032: Obj_RThigh
+    100034: Obj_Torso
+    400000: //RootNode
+    400002: LotsoCane
+    400004: Obj_Head
+    400006: Obj_Head_1
+    400008: Obj_Hips
+    400010: Obj_LBicep
+    400012: Obj_LFoot
+    400014: Obj_LForearm
+    400016: Obj_LHand
+    400018: Obj_Lshin
+    400020: Obj_LThigh
+    400022: Obj_RBicep
+    400024: Obj_RFoot
+    400026: Obj_RForearm
+    400028: Obj_RHand
+    400030: Obj_Rshin
+    400032: Obj_RThigh
+    400034: Obj_Torso
+    2300000: LotsoCane
+    2300002: Obj_Head
+    2300004: Obj_Head_1
+    2300006: Obj_Hips
+    2300008: Obj_LBicep
+    2300010: Obj_LFoot
+    2300012: Obj_LForearm
+    2300014: Obj_LHand
+    2300016: Obj_Lshin
+    2300018: Obj_LThigh
+    2300020: Obj_RBicep
+    2300022: Obj_RFoot
+    2300024: Obj_RForearm
+    2300026: Obj_RHand
+    2300028: Obj_Rshin
+    2300030: Obj_RThigh
+    2300032: Obj_Torso
+    3300000: LotsoCane
+    3300002: Obj_Head
+    3300004: Obj_Head_1
+    3300006: Obj_Hips
+    3300008: Obj_LBicep
+    3300010: Obj_LFoot
+    3300012: Obj_LForearm
+    3300014: Obj_LHand
+    3300016: Obj_Lshin
+    3300018: Obj_LThigh
+    3300020: Obj_RBicep
+    3300022: Obj_RFoot
+    3300024: Obj_RForearm
+    3300026: Obj_RHand
+    3300028: Obj_Rshin
+    3300030: Obj_RThigh
+    3300032: Obj_Torso
+    4300000: LotsoCane
+    4300002: Obj_Head
+    4300004: Obj_Head_1
+    4300006: Obj_Hips
+    4300008: Obj_LBicep
+    4300010: Obj_LFoot
+    4300012: Obj_LForearm
+    4300014: Obj_LHand
+    4300016: Obj_Lshin
+    4300018: Obj_LThigh
+    4300020: Obj_RBicep
+    4300022: Obj_RFoot
+    4300024: Obj_RForearm
+    4300026: Obj_RHand
+    4300028: Obj_Rshin
+    4300030: Obj_RThigh
+    4300032: Obj_Torso
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

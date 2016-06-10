@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 566a1b9d41dac4328a49de499c739e8e
 folderAsset: yes
 timeCreated: 1464977938
+=======
+guid: 877e0172e489357479b47a34b9d2eef5
+folderAsset: yes
+timeCreated: 1464976455
+>>>>>>> 8230152b6f9e45cd4a6eeac39916bb678ac2882a
 licenseType: Free
 PluginImporter:
   serializedVersion: 1
